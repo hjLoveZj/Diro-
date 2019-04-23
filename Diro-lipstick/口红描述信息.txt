@@ -1,0 +1,23 @@
+var datas=[
+{color:'白色',num:'000 Ultra light 47',price:'320.00'}，
+{color:'珊瑚色',num:'450 Ultra lively',price:'320.00'}，
+{color:'粉丝',num:'485 Ultra lust',price:'320.00'}，
+{color:'珊瑚色',num:'555 Ultra kiss 47',price:'320.00'}，
+{color:'橘色',num:'545 Ultra mad',price:'320.00'}，
+{color:'红色',num:'777 Ultra star',price:'320.00'}，
+{color:'珊瑚色',num:'651 Ultra fire',price:'320.00'}，
+{color:'红色',num:'770 Ultra love',price:'320.00'}，
+{color:'粉色',num:'660 Ultra atomic',price:'320.00'}，
+{color:'粉色',num:'763',price:'320.00'}，
+{color:'红色',num:'999 Ultra dior',price:'320.00'}，
+{color:'砖红色',num:'436 Ultra trouble',price:'320.00'}
+{color:'红色',num:'863',price:'320.00'}，
+{color:'砖红色',num:'641',price:'320.00'}，
+{color:'红色',num:'851 Ultra shock',price:'320.00'}，
+{color:'裸色',num:'325 Ultra tender',price:'320.00'}，
+{color:'裸色',num:'587 Ultra appeal',price:'320.00'}，
+{color:'粉色',num:'755 Ultra daring',price:'320.00'}，
+{color:'紫红色',num:'870 Ultra pulse',price:'320.00'}，
+{color:'梅红色',num:'883 Ultra poison',price:'320.00'}，
+{color:'黑色',num:'111 Ultra night 47',price:'320.00'}，
+]
