@@ -1,0 +1,48 @@
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+		}
+		textarea ,input,img{
+			border: 0;
+			outline: 0;
+			vertical-align: middle;
+		}
+		.w {
+			width: 1200px;
+			margin: 0 auto;
+		}
+		body {
+			font: 400 14px arial, '\5FAE\8F6F\96C5\9ED1';
+			color: #666;
+			line-height: 1;
+		}
+		a {
+			color: #666;
+		}
+		.fl {
+			float: left;
+		}
+		.fr {
+			float: right;
+		}
+		.clearfix:before, .clearfix:after {
+			content: "";
+			display: table;
+		}
+		.clearfix:after {
+			clear: both;
+		}
+		.clearfix {
+			*zoom: 1;
+		}
+		em , i {
+			font-style: normal;
+		}
+
+		
