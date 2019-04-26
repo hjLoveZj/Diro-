@@ -1,0 +1,121 @@
+.middle {
+  width: 1349px;
+  margin: 0 auto;
+  /* 小点按钮样式 */
+}
+.middle .title {
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: 117px;
+}
+.middle .title li {
+  float: left;
+  margin: 0 40px;
+}
+.middle .title li a {
+  display: block;
+  height: 30px;
+  padding: 0 10px;
+  border-bottom: 2px solid transparent;
+}
+.middle .title_content {
+  height: 450px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.middle .title_content > div {
+  position: absolute;
+  display: none;
+}
+.middle .title_content .first-div {
+  display: block;
+}
+.middle .title_content .first-div p {
+  height: 25px;
+}
+.middle .title_content .first-div .p49 {
+  height: 49px;
+}
+.middle .title_content .first-div :first-child {
+  margin-top: 45px;
+}
+.middle .title_content .color img {
+  display: block;
+  width: 675px;
+}
+.middle .title_content .color .fr {
+  width: 675px;
+}
+.middle h3 {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 25px;
+}
+.middle .slider {
+  height: 500px;
+  width: 920px;
+  margin: 100px auto;
+  position: relative;
+  background: #efeff1;
+}
+.middle .slider img {
+  width: 450px;
+}
+.middle .slider li {
+  position: absolute;
+  display: none;
+}
+.middle .slider li:first-child {
+  display: block;
+}
+.middle .arrow {
+  display: none;
+}
+.middle .slider:hover .arrow {
+  display: block;
+}
+.middle .arrow-left,
+.middle .arrow-right {
+  font-family: "SimSun", "宋体";
+  width: 30px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.middle .arrow-left:hover,
+.middle .arrow-right:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.middle .arrow-left {
+  left: 0;
+}
+.middle .arrow-right {
+  right: 0;
+}
+.middle .controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.middle .controls a {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.middle .controls a:first-child {
+  margin-left: 0;
+}
+.middle .controls a.active {
+  border-color: #fff;
+  background: #fff;
+}

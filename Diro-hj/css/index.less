@@ -1,0 +1,152 @@
+.middle {
+    width: 1349px;
+    margin: 0 auto;
+    // <!-- 标题 s-->
+    .title {
+        border-bottom: 1px solid #e5e5e5;
+        margin-top: 117px;
+    }
+    .title li {
+        float: left;
+        margin: 0 40px;
+        a {
+            display: block;
+            height: 30px;
+            padding: 0 10px;
+            border-bottom: 2px solid transparent;
+            // box-sizing: border-box;
+        }
+    }
+    // 标题 e
+    // 标题内容 s
+    .title_content {
+        height: 450px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .title_content > div {
+        position: absolute;
+        display: none;
+    }
+    .title_content .first-div {
+        p {
+            height: 25px;
+        }
+        .p49 {
+            height: 49px;
+        }
+        display: block;
+        :first-child {
+            margin-top: 45px;
+        }
+    }
+    .title_content .color {
+        img {
+            display: block;
+            width: 675px;
+        }
+        .fr {
+            width: 675px;
+        }
+    }
+    // 更多推荐 s
+    h3 {
+        text-align: center;
+        font-size: 26px;
+        margin-top: 25px;
+    }
+    // .lunBo {
+    //     position: relative;
+    //     width: 1300px;
+    //     margin: 35px auto;
+    //     li {
+    //         position: absolute;
+    //         display: none;
+    //     }
+    //     li:first-child {
+    //         display: block;
+    //     }
+    // }
+    .slider {
+        height: 500px;
+        width: 920px;
+        margin: 100px auto;
+        position: relative;
+        background: #efeff1;
+        img {
+            width: 450px;
+        }
+      }
+      
+      .slider li {
+        position: absolute;
+        display: none;
+      }
+      
+      .slider li:first-child {
+        display: block;
+      }
+      
+      
+      .arrow {
+        display: none;
+      }
+      
+      .slider:hover .arrow {
+        display: block;
+      }
+      
+      .arrow-left,
+      .arrow-right {
+        font-family: "SimSun", "宋体";
+        width: 30px;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 50%;
+        margin-top: -30px;
+        cursor: pointer;
+        text-align: center;
+        line-height: 60px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 30px;
+      }
+      
+      .arrow-left:hover,
+      .arrow-right:hover {
+        background-color: rgba(0, 0, 0, .5);
+      }
+      
+      .arrow-left {
+        left: 0;
+      }
+      
+      .arrow-right {
+        right: 0;
+      }
+      
+      /* 小点按钮样式 */
+      .controls {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      
+      .controls a {
+        float: left;
+        width: 10px;
+        height: 10px;
+        border:1px solid #ccc;
+        border-radius: 50%;
+        margin-left: 10px;
+      }
+      .controls a:first-child {
+        margin-left: 0;
+      }
+      .controls a.active {
+        border-color: #fff;
+        background: #fff;
+      }
+    // 更多推荐 e
+  }
